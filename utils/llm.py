@@ -1,21 +1,23 @@
 import os
 from dotenv import load_dotenv
+import streamlit as st
 import google.generativeai as genai
 
-# Load .env file
+# Load local .env (for local development)
 load_dotenv()
 
-# Read API key
-api_key = os.getenv("GEMINI_API_KEY")
+# Get API key from Streamlit Secrets first, then .env
+api_key = st.secrets.get("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY")
 
-# Configure Gemini
+if not api_key:
+    raise ValueError("Gemini API Key not found!")
+
 genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 
 def ask_document(document_text, question):
-
     prompt = f"""
 You are a cybersecurity compliance assistant.
 
