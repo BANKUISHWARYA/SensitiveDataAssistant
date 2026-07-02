@@ -1,0 +1,28 @@
+Employee Name: Rahul Sharma
+Employee ID: EMP10234
+
+Email: rahul.sharma@gmail.com
+
+Phone: 9876543210
+
+PAN: ABCDE1234F
+
+Aadhaar: 1234 5678 9012
+
+Credit Card: 4532 1488 0343 6467
+
+Bank Account: 123456789012
+
+IFSC: SBIN0001234
+
+Password: password = MySecret123
+
+API Key: AIzaSyA123456789012345678901234567890123
+
+Classification: CONFIDENTIAL
+
+This document contains Proprietary business information.
+
+Internal Use Only.
+
+NDA Required.
