@@ -251,5 +251,6 @@ The application demonstrates:
 
 **Banku Ishwarya**
 
-AI Innovation Internship Assignment
-Proteccio Data
+Sensitive Data Detection & Compliance Assistant
+
+Proteccio Data – AI Innovation Internship Assignment
